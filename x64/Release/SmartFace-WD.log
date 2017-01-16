@@ -1,0 +1,78 @@
+﻿Build started 1/16/2017 2:40:40 PM.
+     1>Project "E:\workspace\SmartFace-WD\SmartFace-WD\SmartFace-WD.vcxproj" on node 2 (Rebuild target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppClean.targets(76,5): warning : The process cannot access the file 'e:\workspace\smartface-wd\smartface-wd\x64\release\sdsfaceengine.obj' because it is being used by another process.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /IE:\software\opencv\build\include /I"E:\software\samsung\sds\SDS-FR\SDK\include" /I"C:\Program Files\MySQL\Connector.C++ 1.1\include" /I"C:\Program Files\MySQL\MySQL Server 5.7\include" /IE:\software\boost_1_63_0\boost_1_63_0\ /Zi /nologo /W3 /WX- /O2 /Oi /GL /D WIN64 /D NDEBUG /D _CONSOLE /D CPPCONN_PUBLIC_FUNC= /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"x64\Release\SmartFace-WD.pch" /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /IE:\software\opencv\build\include /I"E:\software\samsung\sds\SDS-FR\SDK\include" /I"C:\Program Files\MySQL\Connector.C++ 1.1\include" /I"C:\Program Files\MySQL\MySQL Server 5.7\include" /IE:\software\boost_1_63_0\boost_1_63_0\ /Zi /nologo /W3 /WX- /O2 /Oi /GL /D WIN64 /D NDEBUG /D _CONSOLE /D CPPCONN_PUBLIC_FUNC= /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"x64\Release\SmartFace-WD.pch" /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt BaseDialog.cpp CameraDisplayThread.cpp CameraThread.cpp CameraVerifyThread.cpp DatabaseHelper.cpp DatabaseManager.cpp EnrollDialog.cpp EnrollPresenter.cpp FaceEngine.cpp FaceEngineBuilder.cpp ImageDialog.cpp ListDialog.cpp ListPresenter.cpp Presenter.cpp ProcessingThread.cpp SDSFaceEngine.cpp SharedImageBuffer.cpp "SmartFace-WD.cpp" "SmartFace-WDDlg.cpp" TimeThread.cpp Utils.cpp VerifyDialog.cpp VerifyPresenter.cpp VirtualKeyBoardDialog.cpp
+         BaseDialog.cpp
+         CameraDisplayThread.cpp
+         CameraThread.cpp
+         CameraVerifyThread.cpp
+         DatabaseHelper.cpp
+     1>DatabaseHelper.cpp(55): warning C4101: 'e' : unreferenced local variable
+     1>DatabaseHelper.cpp(71): warning C4101: 'e' : unreferenced local variable
+     1>DatabaseHelper.cpp(110): warning C4101: 'e' : unreferenced local variable
+     1>DatabaseHelper.cpp(124): warning C4101: 'e' : unreferenced local variable
+     1>DatabaseHelper.cpp(138): warning C4101: 'e' : unreferenced local variable
+         DatabaseManager.cpp
+         EnrollDialog.cpp
+         EnrollPresenter.cpp
+         FaceEngine.cpp
+         FaceEngineBuilder.cpp
+         ImageDialog.cpp
+         ListDialog.cpp
+         ListPresenter.cpp
+         Presenter.cpp
+         ProcessingThread.cpp
+         SDSFaceEngine.cpp
+     1>SDSFaceEngine.cpp(56): warning C4244: 'return' : conversion from 'float' to 'int', possible loss of data
+         SharedImageBuffer.cpp
+         SmartFace-WD.cpp
+         SmartFace-WDDlg.cpp
+         TimeThread.cpp
+         Compiling...
+         Utils.cpp
+     1>Utils.cpp(52): warning C4800: 'BOOL' : forcing value to bool 'true' or 'false' (performance warning)
+     1>Utils.cpp(75): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\time.inl(112) : see declaration of 'localtime'
+         VerifyDialog.cpp
+         VerifyPresenter.cpp
+         VirtualKeyBoardDialog.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D NDEBUG /D _UNICODE /D UNICODE /D _AFXDLL /l"0x0409" /Ix64\Release\ /nologo /fo"x64\Release\SmartFace-WD.res" SmartFace-WD.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"E:\workspace\SmartFace-WD\x64\Release\SmartFace-WD.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:E:\software\opencv\build\x64\vc12\lib /LIBPATH:"E:\software\samsung\sds\SDS-FR\SDK\lib" /LIBPATH:"C:\Program Files\MySQL\Connector.C++ 1.1\lib\opt" /LIBPATH:"C:\Program Files\MySQL\MySQL Server 5.7\lib" /LIBPATH:"C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\Lib\x64" opencv_ts300.lib opencv_world300.lib SDSFace310W.lib mysqlcppconn.lib libmysql.lib winmm.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"E:\workspace\SmartFace-WD\x64\Release\SmartFace-WD.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\workspace\SmartFace-WD\x64\Release\SmartFace-WD.lib" /MACHINE:X64 "x64\Release\SmartFace-WD.res"
+         x64\Release\BaseDialog.obj
+         x64\Release\CameraDisplayThread.obj
+         x64\Release\CameraThread.obj
+         x64\Release\CameraVerifyThread.obj
+         x64\Release\DatabaseHelper.obj
+         x64\Release\DatabaseManager.obj
+         x64\Release\EnrollDialog.obj
+         x64\Release\EnrollPresenter.obj
+         x64\Release\FaceEngine.obj
+         x64\Release\FaceEngineBuilder.obj
+         x64\Release\ImageDialog.obj
+         x64\Release\ListDialog.obj
+         x64\Release\ListPresenter.obj
+         x64\Release\Presenter.obj
+         x64\Release\ProcessingThread.obj
+         x64\Release\SDSFaceEngine.obj
+         x64\Release\SharedImageBuffer.obj
+         "x64\Release\SmartFace-WD.obj"
+         "x64\Release\SmartFace-WDDlg.obj"
+         x64\Release\stdafx.obj
+         x64\Release\TimeThread.obj
+         x64\Release\Utils.obj
+         x64\Release\VerifyDialog.obj
+         x64\Release\VerifyPresenter.obj
+         x64\Release\VirtualKeyBoardDialog.obj
+         Generating code
+         Finished generating code
+         SmartFace-WD.vcxproj -> E:\workspace\SmartFace-WD\x64\Release\SmartFace-WD.exe
+     1>Done Building Project "E:\workspace\SmartFace-WD\SmartFace-WD\SmartFace-WD.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:35.94

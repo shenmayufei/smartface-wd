@@ -1,0 +1,261 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="thread">
+      <UniqueIdentifier>{906c1e50-a9da-4b57-83c2-baed5e14dcea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="presenter">
+      <UniqueIdentifier>{05bcb720-d870-4eb2-ba3a-08d6a60c6e72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="viewer">
+      <UniqueIdentifier>{38ad32e2-aff4-48cd-b5e9-1f788212e0d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dialog">
+      <UniqueIdentifier>{633d8a0a-43ce-45b8-854d-99364f71cb29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="engine">
+      <UniqueIdentifier>{413429dd-4092-419b-b71a-3a81f202ac8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="database">
+      <UniqueIdentifier>{7039aff1-b437-4ce7-a9b5-06ae08c0cfa3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="database\model">
+      <UniqueIdentifier>{ad939382-1863-4c5f-8687-dbad2527909c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SmartFace-WD.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="User.h">
+      <Filter>database\model</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcessingThread.h">
+      <Filter>thread</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraDisplayThread.h">
+      <Filter>thread</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraVerifyThread.h">
+      <Filter>thread</Filter>
+    </ClInclude>
+    <ClInclude Include="Presenter.h">
+      <Filter>presenter</Filter>
+    </ClInclude>
+    <ClInclude Include="VerifyPresenter.h">
+      <Filter>presenter</Filter>
+    </ClInclude>
+    <ClInclude Include="VerifyDialog.h">
+      <Filter>dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="SmartFace-WDDlg.h">
+      <Filter>dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="EnrollDialog.h">
+      <Filter>dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseDialog.h">
+      <Filter>dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="DisplayViewer.h">
+      <Filter>viewer</Filter>
+    </ClInclude>
+    <ClInclude Include="VerifyViewer.h">
+      <Filter>viewer</Filter>
+    </ClInclude>
+    <ClInclude Include="EnrollPresenter.h">
+      <Filter>presenter</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraThread.h">
+      <Filter>thread</Filter>
+    </ClInclude>
+    <ClInclude Include="FaceEngine.h">
+      <Filter>engine</Filter>
+    </ClInclude>
+    <ClInclude Include="FaceEngineBuilder.h">
+      <Filter>engine</Filter>
+    </ClInclude>
+    <ClInclude Include="SDSFaceEngine.h">
+      <Filter>engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Buffer.h">
+      <Filter>thread</Filter>
+    </ClInclude>
+    <ClInclude Include="DatabaseHelper.h">
+      <Filter>database</Filter>
+    </ClInclude>
+    <ClInclude Include="DatabaseManager.h">
+      <Filter>database</Filter>
+    </ClInclude>
+    <ClInclude Include="SharedImageBuffer.h">
+      <Filter>thread</Filter>
+    </ClInclude>
+    <ClInclude Include="ListDialog.h">
+      <Filter>dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="Viewer.h">
+      <Filter>viewer</Filter>
+    </ClInclude>
+    <ClInclude Include="List.h">
+      <Filter>database\model</Filter>
+    </ClInclude>
+    <ClInclude Include="ListPresenter.h">
+      <Filter>presenter</Filter>
+    </ClInclude>
+    <ClInclude Include="ListCheck.h">
+      <Filter>database\model</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageDialog.h">
+      <Filter>dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="VirtualKeyBoardDialog.h">
+      <Filter>dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeThread.h">
+      <Filter>thread</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SmartFace-WD.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraDisplayThread.cpp">
+      <Filter>thread</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraVerifyThread.cpp">
+      <Filter>thread</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcessingThread.cpp">
+      <Filter>thread</Filter>
+    </ClCompile>
+    <ClCompile Include="VerifyPresenter.cpp">
+      <Filter>presenter</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseDialog.cpp">
+      <Filter>dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="EnrollDialog.cpp">
+      <Filter>dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="VerifyDialog.cpp">
+      <Filter>dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="SmartFace-WDDlg.cpp">
+      <Filter>dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="EnrollPresenter.cpp">
+      <Filter>presenter</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraThread.cpp">
+      <Filter>thread</Filter>
+    </ClCompile>
+    <ClCompile Include="Presenter.cpp">
+      <Filter>presenter</Filter>
+    </ClCompile>
+    <ClCompile Include="SDSFaceEngine.cpp">
+      <Filter>engine</Filter>
+    </ClCompile>
+    <ClCompile Include="FaceEngineBuilder.cpp">
+      <Filter>engine</Filter>
+    </ClCompile>
+    <ClCompile Include="FaceEngine.cpp">
+      <Filter>engine</Filter>
+    </ClCompile>
+    <ClCompile Include="SharedImageBuffer.cpp">
+      <Filter>thread</Filter>
+    </ClCompile>
+    <ClCompile Include="DatabaseHelper.cpp">
+      <Filter>database</Filter>
+    </ClCompile>
+    <ClCompile Include="DatabaseManager.cpp">
+      <Filter>database</Filter>
+    </ClCompile>
+    <ClCompile Include="ListDialog.cpp">
+      <Filter>dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="ListPresenter.cpp">
+      <Filter>presenter</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageDialog.cpp">
+      <Filter>dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="VirtualKeyBoardDialog.cpp">
+      <Filter>dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeThread.cpp">
+      <Filter>thread</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="SmartFace-WD.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\SmartFaceWD.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\SmartFace-WD.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bitmap1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\x64\Release\image\m_btn1.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bitmap2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\x64\release\image\bitmap1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\x64\Release\image\m_btn2.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\x64\release\image\m_btn3.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\x64\release\image\m_btn4.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\x64\release\image\title.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
