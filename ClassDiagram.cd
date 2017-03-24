@@ -1,0 +1,221 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CSmartFaceWDApp" Collapsed="true">
+    <Position X="14.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAACAAAAAAAAAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>SmartFace-WD.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Utils" Collapsed="true">
+    <Position X="14.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAABAQAAAAAAAAAAAgAAAAACAAQIAIAAAAAAQEGAAAA=</HashCode>
+      <FileName>Utils.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Buffer&lt;T&gt;" Collapsed="true">
+    <Position X="11" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AMAAAAAAAAAAAAAAEIAAQAAAAAACAAAAAAAICAASQAA=</HashCode>
+      <FileName>Buffer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CameraDisplayThread" Collapsed="true">
+    <Position X="6" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAFAAAAEAAAgAAAAAAAA=</HashCode>
+      <FileName>CameraDisplayThread.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CameraThread" Collapsed="true">
+    <Position X="12.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAiAAAABBAAAAAAAAEAAAgCAQAEAAAAACACAI=</HashCode>
+      <FileName>CameraThread.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CameraVerifyThread" Collapsed="true">
+    <Position X="8.25" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAAAAAAAAACAAAEAAAgAAAAAAAA=</HashCode>
+      <FileName>CameraVerifyThread.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProcessingThread" Collapsed="true">
+    <Position X="7" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAmAAAAABAAAAAAAAAAAAAAAUEEAAAAACAABI=</HashCode>
+      <FileName>ProcessingThread.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TimeThread" Collapsed="true">
+    <Position X="12.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAmAAAAABAAAAIAAAAAAAAAAQAEAgAAACAAAI=</HashCode>
+      <FileName>TimeThread.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SharedImageBuffer" Collapsed="true">
+    <Position X="11" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAgAAEAAAAAAEAAAAAAAAIAACAAAAAAAAAACAAA=</HashCode>
+      <FileName>SharedImageBuffer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EnrollPresenter" Collapsed="true">
+    <Position X="3.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAACACAACAAAAAAAAABAABCAAAAAhEAAAAAAQAEA=</HashCode>
+      <FileName>EnrollPresenter.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ListPresenter" Collapsed="true">
+    <Position X="16.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAAAAAAIAAJAAAAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>ListPresenter.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Presenter" Collapsed="true">
+    <Position X="2" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAACAAAQAAJAgBAAAAAABMAAAEAAAAAA=</HashCode>
+      <FileName>Presenter.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VerifyPresenter" Collapsed="true">
+    <Position X="1" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAACAAAAAAQAAQAABAABCAAECAhEAAAAACBQEA=</HashCode>
+      <FileName>VerifyPresenter.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DisplayViewer" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DisplayViewer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VerifyViewer" Collapsed="true">
+    <Position X="8.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>VerifyViewer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Viewer" Collapsed="true">
+    <Position X="0.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAA=</HashCode>
+      <FileName>Viewer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BaseDialog" Collapsed="true">
+    <Position X="4.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAEAAAAMAAgAABAAAAAAAAQAAAQAAAAAAEEQAAA=</HashCode>
+      <FileName>BaseDialog.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EnrollDialog" Collapsed="true">
+    <Position X="1.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAgEAAABACCAAABAAAEAAAAAIAAAABhgUAQQQAFQ=</HashCode>
+      <FileName>EnrollDialog.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ImageDialog" Collapsed="true">
+    <Position X="14.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAEAAAAQIAgAABAAAAAAAQAAAAAACIAAAAAAAAA=</HashCode>
+      <FileName>ImageDialog.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ListDialog" Collapsed="true">
+    <Position X="3.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAgQEAAABABCgAABAAAAAAAAAAAAAAAAgECCAAkAI=</HashCode>
+      <FileName>ListDialog.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CSmartFaceWDDlg" Collapsed="true">
+    <Position X="5.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAEAAAAACwAAABQEAAAAAQAAEAAAAJABAQAAAAA=</HashCode>
+      <FileName>SmartFace-WDDlg.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VerifyDialog" Collapsed="true">
+    <Position X="4.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ASAgAAFAAAQAAAgAADABAAAAAAAAAAAAAggECQRFAFI=</HashCode>
+      <FileName>VerifyDialog.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VirtualKeyBoardDialog" Collapsed="true">
+    <Position X="16.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAAAAAABAAAAAAAQCAAAAAAIAAAAAw8A8=</HashCode>
+      <FileName>VirtualKeyBoardDialog.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FaceEngine" Collapsed="true">
+    <Position X="3.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAACUAAAAAAQAAAAAABAABAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FaceEngine.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FaceEngineBuilder" Collapsed="true">
+    <Position X="12.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAIAAAAAAAAA=</HashCode>
+      <FileName>FaceEngineBuilder.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SDSFaceEngine" Collapsed="true">
+    <Position X="0.75" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACkAEAAAAQAAAAAABAABAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SDSFaceEngine.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DatabaseHelper" Collapsed="true">
+    <Position X="16.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAiIAAAAgAAQAAAAAAFAAAAAAAQAAQgAAAAMAAAIQA=</HashCode>
+      <FileName>DatabaseHelper.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DatabaseManager" Collapsed="true">
+    <Position X="11" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAABAAAAEAAAAAAAAACCAAAAAAAAIAAAEAgA=</HashCode>
+      <FileName>DatabaseManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="List" Collapsed="true">
+    <Position X="11" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAgAAAAAAAAAAAAAAAAEAABAAAAAAAAAQAAAgA=</HashCode>
+      <FileName>List.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="ListCheck" Collapsed="true">
+    <Position X="12.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAQAAAAAAAAAAAEAAFAAAAAAAAAQAAAgA=</HashCode>
+      <FileName>ListCheck.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="User" Collapsed="true">
+    <Position X="14.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>4AAAAAAAAAAAQAAAAAAAAAAAAgAkAAAAAAAAAAAAQgA=</HashCode>
+      <FileName>User.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

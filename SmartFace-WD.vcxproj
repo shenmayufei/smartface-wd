@@ -259,6 +259,7 @@
     <ResourceCompile Include="SmartFace-WD.rc" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="ClassDiagram.cd" />
     <None Include="res\SmartFaceWD.rc2" />
   </ItemGroup>
   <ItemGroup>
